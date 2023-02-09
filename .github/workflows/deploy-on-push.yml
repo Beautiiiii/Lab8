@@ -11,7 +11,7 @@ jobs:
         uses: appleboy/scp-action@master
         with:
           host: ${{secrets.HOST}}
-          username: ${{secrects.SSH_USER_NAME}}
+          username: ${{secrets.SSH_USER_NAME}}
           port: ${{secrects.SSH_PORT}}
           key: ${{secrects.SSH_KEY}}
           source: "./html/*"
